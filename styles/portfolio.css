@@ -211,10 +211,9 @@ main section {
   display: flex;
   gap: 71px;
   margin-left: 8px;
-
 }
-.resume-item-title{
-  color:  #474747;
+.resume-item-title {
+  color: #474747;
   font-family: "Open Sans";
   font-size: 25px;
   font-weight: 700;
@@ -229,7 +228,7 @@ main section {
   margin-top: 10px;
 }
 .resume-item-description {
-  color:  #757575;
+  color: #757575;
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400;
@@ -248,8 +247,27 @@ main section {
 /* Footer section style */
 
 footer {
-  background-color:  #FFF8F3;
+  gap: 100px;
+  background-color: #fff8f3;
   display: flex;
-  padding: 130px 230px;
+  padding: 130px 200px;
   margin-top: 113px;
+}
+.footer-column {
+  width: 50%;
+}
+.social-links a {
+  margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 35px;
+  color: #757575;
+  font-family: "Open Sans";
+  border-radius: 5px;
+  background: #fff;
+  border: 0px;
+  width: 100%;
 }
